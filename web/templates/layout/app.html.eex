@@ -19,7 +19,9 @@
             <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
           </ul>
         </nav>
+        <%= link to: user_path(@conn, :index) do %>
         <span class="logo"></span>
+        <% end %>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
