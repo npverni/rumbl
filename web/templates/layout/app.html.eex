@@ -20,7 +20,7 @@
           </ul>
         </nav>
         <%= link to: user_path(@conn, :index) do %>
-        <span class="logo"></span>
+          <span class="logo"></span>
         <% end %>
       </header>
 
